@@ -1,0 +1,48 @@
+home
+about
+products
+service
+videos
+
+idea- www.seattlecidercompany.com
+/* 4px solid #c5c8b3 */
+
+home<articles<slider<hotproducts
+hotproducts<solar<chemicals<plasticcomposites
+footer1<map<contact&enquiry
+footer<sitemap<socialmedia
+
+about
+
+products<construction polymers for oem/formulators - http://www.adglobalsynergies.com/construction-polymers.php
+products<solar energy solutions - http://www.elasticsolarpanels.com/
+products<plastic composites -
+products<chemicals - http://www.adglobalsynergies.com/solutionforwater.php and http://www.adglobalsynergies.com/waterproofing.php
+
+
+services<http://www.adglobalsynergies.com/services.php
+
+videos<http://www.adglobalsynergies.com/videos.php
+
+
+plastic composites include -
+
+Pvc wall panels
+pvc flooring
+sythetic resin roofing sheets
+WPC flooring
+Marble tiles
+
+Solar energy solutions -
+
+solar power pack
+elastic compact solar lighting kit
+solar pv modules
+faq on solar
+
+plastic composites
+pvc wall panels -  http://elasticpvcpanels.co.in/ 
+pvc flooring -
+resin roofing sheets - in github roofing sheet pictures
+wpc flooring -
+marblesheets - fwmarblesheetpics
