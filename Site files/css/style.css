@@ -854,15 +854,15 @@
 /* Header */
 
 	body.landing #header {
-		background-color: transparent;
 		left: 0;
 		position: absolute;
 		top: 0;
 	}
 
 	#header {
-		background-color: #202222;
-		color: #ffffff;
+		background: #383634 url(../dark_mosaic.png) repeat scroll left top;
+		opacity:1;
+		color: #4a858f;
 		cursor: default;
 		height: 4.75em;
 		line-height: 4.75em;
@@ -947,6 +947,13 @@
 			#header .container nav {
 				right: 0;
 			}
+			
+		#header img {
+			height:inherit;
+			padding:5px;
+			padding-left:20px;
+			
+		}
 
 /* Banner */
 
@@ -994,12 +1001,12 @@
 	}
 
 		.wrapper.style1 {
-			background-color: #3ba666;
-			-moz-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+			background-color: #4a858f;
+			/*-moz-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
 			-webkit-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
 			-o-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
 			-ms-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-			background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+			background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%); */
 			color: #ffffff;
 		}
 
@@ -1032,8 +1039,8 @@
 /* Footer */
 
 	#footer {
-		background: #202222;
-		color: #888;
+		background: #4a858f;
+		color: #ffffff;
 		padding: 6em 0em 4em;
 	}
 
@@ -1047,7 +1054,7 @@
 			-o-transition: all 0.2s ease-in-out;
 			-ms-transition: all 0.2s ease-in-out;
 			transition: all 0.2s ease-in-out;
-			color: #888;
+			color: #fff;
 		}
 
 			#footer a:active, #footer a:hover {

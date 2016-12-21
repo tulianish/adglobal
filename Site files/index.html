@@ -16,6 +16,14 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  		<script type="text/javascript" src="jquery.sticky.js"></script>
+  		<script>
+    		$(window).load(function(){
+     		$("#header").sticky({ topSpacing: 0 });
+   			 });
+ 		 </script>
+         
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -27,7 +35,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1><img src="image_02.png"></h1>
+				<img id="logo" src="image_02.png">
 				<nav id="nav">
 					<ul>
 						<li><a href=  "index.html">Home</a></li>
@@ -51,30 +59,6 @@
 			</section>
 
 		<!-- One -->
-			<section id="one" class="wrapper style1 align-center">
-				<div class="container" id="1">
-					<header>
-						<h2>Consectetur adipisicing elit</h2>
-						<p>Lorem ipsum dolor sit amet adipisicing elit. Delectus consequatur sed tempus.</p>
-					</header>
-					<div class="row 200%">
-						<section class="4u 12u$(small)">
-							<i class="icon big rounded fa-clock-o"></i>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.</p>
-						</section>
-						<section class="4u 12u$(small)">
-							<i class="icon big rounded fa-comments"></i>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam consequatur repellat debitis maxime molestiae.</p>
-						</section>
-						<section class="4u$ 12u$(small)">
-							<i class="icon big rounded fa-user"></i>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eaque eveniet, nesciunt molestias. Ipsam, voluptate vero.</p>
-						</section>
-					</div>
-				</div>
-			</section>
-
-		<!-- Two -->
 			<section id="two" class="wrapper style2 align-center">
 				<div class="container" id="2">
 					<header>
@@ -110,6 +94,30 @@
 							</li>
 						</ul>
 					</footer>
+				</div>
+			</section>
+            
+          <!-- Two -->
+			<section id="one" class="wrapper style1 align-center">
+				<div class="container" id="1">
+					<header>
+						<h2>Consectetur adipisicing elit</h2>
+						<p>Lorem ipsum dolor sit amet adipisicing elit. Delectus consequatur sed tempus.</p>
+					</header>
+					<div class="row 200%">
+						<section class="4u 12u$(small)">
+							<i class="icon big rounded fa-clock-o"></i>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.</p>
+						</section>
+						<section class="4u 12u$(small)">
+							<i class="icon big rounded fa-comments"></i>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam consequatur repellat debitis maxime molestiae.</p>
+						</section>
+						<section class="4u$ 12u$(small)">
+							<i class="icon big rounded fa-user"></i>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eaque eveniet, nesciunt molestias. Ipsam, voluptate vero.</p>
+						</section>
+					</div>
 				</div>
 			</section>
 

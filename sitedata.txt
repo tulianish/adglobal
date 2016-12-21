@@ -1,11 +1,8 @@
-home
+ home
 about
 products
 service
 videos
-
-idea- www.seattlecidercompany.com
-/* 4px solid #c5c8b3 */
 
 home<articles<slider<hotproducts
 hotproducts<solar<chemicals<plasticcomposites
