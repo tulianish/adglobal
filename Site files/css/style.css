@@ -140,9 +140,6 @@
 		text-align: right;
 	}
 	
-	.icon
-	{z-index:-1;}
-
 /* Section/Article */
 
 	section.special, article.special {
@@ -965,7 +962,7 @@
 
 	#banner {
 		background: url("images/overlay.png"), url("../images/banner.jpg");
-		background-position: center;
+		background-position: 0px -250px;
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #ffffff;
@@ -1041,6 +1038,10 @@
 		.wrapper.style2 .feature {
 			margin: 0 0 2em 0;
 		}
+		
+		#art1
+		{
+			width:10px;}
 
 /* Footer */
 
