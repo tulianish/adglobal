@@ -23,7 +23,9 @@
 			<link rel="stylesheet" href="css/style-xlarge.css" />
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+
 		</noscript>
+		<link rel="stylesheet" href="css/contact.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
@@ -41,7 +43,7 @@
                         <li style="font-family:Oswald"><a href="contact.html">Contact Us</a></li>
 					</ul>
 				</nav>
-                
+
 			</header>
 
 		<!-- Main -->
@@ -50,21 +52,27 @@
                     <a href="#" class="image fit"><img src="images/contactus.jpg" alt="" /></a>
 					<header class="major">
 						<b><h2 style="color:black">We'd Love to hear from you</h2></b>
-                        <b><p style="color:black">We're easy to contact. Let's talk. </p></b>
+                        <b><p style="color:black"> We're easy to contact. Let's talk. </p></b>
 					</header>
                     <p>
-                        
-                        <i class="material-icons md-48 md-dark" style="color:black">email</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="material-icons md-48 md-dark" style="color:black">phone_iphone</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="material-icons md-48 md-dark" style="color:black">location_on</i>
-                    </p>
-				</div>
-               <div id="map" style="width:50%;height:500px"></div>
+                        <span class="ultra"><i class="material-icons md-48 md-dark" style="color:black">email</i><br><br>
+													Use the form below to shoot us an email. We generally reply within 24 hours.
+												</span>
+                        <span class="ultra"><i class="material-icons md-48 md-dark" style="color:black">phone_iphone</i>
+													<br><br>Call us at +919810118362 or +919810364938. We can be reached between 8am and 5pm, Mon through Sat.
+												</span>
+                        <span class="ultra"><i class="material-icons md-48 md-dark" style="color:black">location_on</i>
+													<br><br>Visit us at
+8, 9 , 10  LOCAL SHOPPING COMPLEX, DAKSHINPURI, BLOCK –2 NEW DELHI—110062 . INDIA
+												</span>
+                    </p><br>
+				</div><br><br>
+               <div id="map" style="margin-left:auto;margin-right:auto;width:50%;height:500px"></div>
 
 <script>
 function myMap() {
   var mapCanvas = document.getElementById("map");
-  var myCenter = new google.maps.LatLng(28.5232115,77.2401416); 
+  var myCenter = new google.maps.LatLng(28.5232115,77.2401416);
   var mapOptions = {center: myCenter, zoom: 15};
   var map = new google.maps.Map(mapCanvas,mapOptions);
   var marker = new google.maps.Marker({
@@ -82,13 +90,13 @@ function myMap() {
   });
 
 infowindow.open(map,marker);
-    
+
 }
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 			</section>
-        
+
 
 		<!-- Footer -->
 			<footer id="footer">

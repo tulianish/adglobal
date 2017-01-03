@@ -1,0 +1,19 @@
+p
+{
+  max-width: 100%;
+  text-align: center;
+}
+i
+{
+  border-radius: 40px;
+  border: solid 1px black;
+  padding: 10px;
+}
+span.ultra
+{
+  max-width: 30%;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;;
+  width: 30%;
+}
