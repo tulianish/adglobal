@@ -12,6 +12,10 @@ i
     width: 100px;
 background: blue;
 }
+.mySlides 
+{
+    display:none;
+}
 span.ultra
 {
 
@@ -30,6 +34,28 @@ h1
     font-size: 2.5em;
     color: #4a858f;
     padding-bottom: 50px;
+}
+h2
+{
+    font-family: oswald;
+    font-size: 3em;
+    color: #4a858f;
+    
+}
+.image1 { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+    padding-left:150px;
+}
+
+h4 { 
+   position: absolute; 
+   top: 75px; 
+   left: 250px; 
+   width: 100%;
+    font-weight: 400;
+color: white;
+    font-size: 2.5em;
 }
 /* Form */
 
