@@ -10,7 +10,6 @@ i
   padding: 30px;
     height: 100px;
     width: 100px;
-background: blue;
 }
 .mySlides 
 {
@@ -28,6 +27,7 @@ span.ultra
   font-family: Lato;
 
 }
+
 h1
 {
     font-family: oswald;

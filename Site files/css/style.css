@@ -60,7 +60,7 @@ body {
 
 	h2 {
 		font-size: 1.75em;
-		line-height: 2.5em;
+		line-height: 3em;
         font-family: oswald;
 	}
 
@@ -80,8 +80,10 @@ body {
 	}
 
 	h6 {
-		font-size: 0.7em;
-		line-height: 1.5em;
+		font-size: 1.75em;
+		line-height: 3.5em;
+        padding-top: 2em;
+        font-family: oswald;
 	}
 
 	sub {
@@ -174,8 +176,7 @@ body {
 	}
 
 	header h4 + p,
-	header h5 + p,
-	header h6 + p {
+	header h5 + p {
 		font-size: 0.9em;
 		margin-top: -0.6em;
 		line-height: 1.5em;
