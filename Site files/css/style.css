@@ -880,6 +880,7 @@ body {
 		line-height: 4.75em;
 		width: 100%;
 		z-index: 10000;
+        display: inline-block;
 	}
 
 		#header h1 {
