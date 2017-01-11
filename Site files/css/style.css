@@ -4,6 +4,7 @@
 @import url("http://fonts.googleapis.com/css?family=Oswald:350" rel='stylesheet' type='text/css');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
 
 
 .material-icons{
@@ -12,6 +13,126 @@
 .material-icons.md-36 {
     font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
+
+containere{
+      position: relative;
+    vertical-align: baseline;
+    width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+    min-width: 1200px;
+}
+#imagee {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    
+}
+#texte {
+          position: absolute; 
+  text-align: center;
+  width: 100%;
+  top: 3.5em;   
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 51;
+    color: floralwhite;
+  font-size: 3.5em;
+    font-family: 'Oxygen', 'Oswald', sans-serif;
+  font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+	font-weight: 900;
+    text-decoration: none;
+    
+}
+#textf {
+          position: absolute; 
+    display: block;
+  text-align: center;
+  width: 100%;
+    line-height: 10px;
+  top: 13.5em;   
+  left: 0;
+  bottom: 0;
+  right: 0;
+     color: floralwhite;
+  font-size: 1.1em;
+    font-weight: 800;
+    font-family: 'Oxygen', 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding-top: 1em;
+}
+#nave
+	{
+        position: absolute;
+        display: block;
+        text-align:center;
+        top: 18em;
+        margin:0 auto;
+        list-style:none;
+        float: left;
+        left:50%;
+        margin-left:-425px; /* negative margin equal to half the width */
+        list-style:none;
+        
+	}
+
+	
+		#nave ul
+		{
+			display: inline-block;
+			padding: 0em 3em;
+			border-radius: 40px;
+			background: #131313;
+            text-align: center;
+            cursor:pointer;
+            
+		}
+
+		#nave > ul > li
+		{
+			display: inline-block;
+		}
+		
+			#nave > ul > li:last-child
+			{
+				padding-right: 0;
+			}
+
+			#nave > ul > li > a,
+			#nave > ul > li > span
+			{
+				display: block;
+				padding: 1.3em 1.5em;
+				letter-spacing: 1px;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-weight: 200;
+				font-size: .8em;
+				outline: 0;
+				color: #7b7b7b;
+			}
+
+
+			#nave > ul > li > a:hover
+			{
+				color: #FFF;
+			}
+
+			#nave li.active a
+			{
+				color: #FFF;
+			}
+
+			#nave > ul > li > ul
+			{
+				display: none;
+			}
 
 body {
 		background: #fff;
@@ -1011,7 +1132,7 @@ body {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0em 4em;
+		padding: 4.5em 0em 4em;
 	}
 	
 	.wrapper.img
