@@ -27,6 +27,9 @@ span.ultra
   font-family: Lato;
 
 }
+body {
+    background-image: url("images/overlay1.png");
+}
 
 h1
 {
