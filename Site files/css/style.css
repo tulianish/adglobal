@@ -1263,9 +1263,11 @@ div.img img {
 }
 
 div.desc {
-    padding: 20px;
-    text-align: center;
+    padding: 2px;
+    text-align: justify;
     font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: black;
     
 }
 
